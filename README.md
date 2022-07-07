@@ -1,2 +1,0 @@
-# Djangoli
-Impariamo DJANGO
