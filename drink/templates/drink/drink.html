@@ -11,9 +11,9 @@
 
     <ul>
         {% for drink in drinks %}
-        <li>{{ drink.nome }} - €{{ drink.prezzo }}
-            <img width="100px" src="{{ drink.immagine.url }}" alt="immagine">
-        </li>
+            <li>{{ drink.nome }} - €{{ drink.prezzo }}
+                <img width="100px" src="{{ drink.immagine.url }}" alt="immagine">
+            </li>
         {% endfor %}
     </ul>
     
