@@ -1,1 +1,10 @@
-<h1>Disdhashd</h1>
+<img stc="" />
+
+<h1>All drinks</h1>
+
+{% for drink in drinks %}
+
+<h1>{{ drink.nome }}</h1>
+<img src="{{ drink.immagine.url }}" style="width: 100px"/>
+
+{% endfor %}
